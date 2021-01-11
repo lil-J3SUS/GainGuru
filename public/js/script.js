@@ -1,7 +1,8 @@
-//initialize db for further use
+//initialize db for database access
 const db = firebase.firestore()
 
-
+//initialize provider for authentication
+const provider = new firebase.auth.GoogleAuthProvider();
 
 //-------------------implementing functions------------------------
 function addUser(first,last,born,mail,password) {
