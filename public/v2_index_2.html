@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Home</title>
+
+
+</head>
+<body>
+
+    <ul class="topnav">
+        <li><a class="active" href="v2_index_2.html">Home</a></li>
+        <li><a href="v2_Recipes.html">Browse Recipes</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Username
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="v2_Account.html">Account</a>
+                    <a href="v1_index.html">Logout</a>
+                </div>
+            </div>
+        <li class="right"><a href="v2_BodyData.html">Body Data</a></li>
+        <li class="right"><a href="v2_ViewSavedPlans.html">View Saved Plans</a></li>
+    </ul>
+
+    <div style="padding:0 16px;">
+        <h2>Welcome to GainGuru! - You are now logged in!</h2>
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <a href="v1_Login.html">
+                            <img class="d-block w-100" src="../pics/sports.jpeg" alt="First slide">
+                        </a>
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Gains</h3>
+                        <p>Create an Account and receive a fitness- and eating-routine tailored to just your personal needs.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <a href="v1_Recipes.html">
+                            <img class="d-block w-100" src="../pics/food.jpg" alt="Second slide">
+                        </a>
+                        <div class="mask rgba-black-strong"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Food</h3>
+                        <p>Browse through all our recipes and search for something that fits your taste.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="view">
+                        <a href="">
+                            <img class="d-block w-100" src="../pics/calendar.jpeg" alt="Third slide">
+                        </a>
+                        <div class="mask rgba-black-slight"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Plans</h3>
+                        <p>Store your plans and access them at any time</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <p>This is the second page structure</p>
+
+        <h4>This site is mega responsive.</h4>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/init-firebase.js"></script>
+</body>
+</html>

@@ -1,12 +1,12 @@
 body {
     background-color: #333333;
 }
+#wrapper{
+    background-color: #333333;
+    text-align: center;
 
-h2{
-    color: whitesmoke;
 }
-
-h4{
+h2,h4{
     color: whitesmoke;
 }
 
@@ -102,6 +102,9 @@ ul.topnav li.right {float: right;}
 
 /*Dropdown element nav-bar end*/
 
+/*carousel css start*/
 
-
-
+#carousel-example-2 {
+    width: 80%;
+    margin: auto;
+}
