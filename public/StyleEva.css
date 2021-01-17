@@ -67,7 +67,11 @@ button:hover {
     padding: 14px 20px;
     background-color: #f44336;
 }
-
+/* Extra styles for the cancel button */
+.signupbtn1{
+    padding: 14px 20px;
+    background-color: #54f542;
+}
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn1, .signupbtn1 {
     float: left;
@@ -139,7 +143,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
+    .cancelbtn1, .signupbtn1 {
         width: 100%;
     }
 }
