@@ -16,14 +16,11 @@
         max-width: 100%;
     }
 
-    html, body {
-        height: 100%;
-    }
     .card {
-        position: relative;
+        position: initial;
         background: white;
-        max-width: 500px;
-        margin: 20px auto;
+        max-width: 50%;
+        margin: 50px auto;
         box-shadow: 0px 0px 30px 2px #000;
     }
     .header {
@@ -42,28 +39,39 @@
         box-shadow: 0px 5px 30px 1px;
     }
     .food {
+        font-size: 60px;
+        font-weight: bold;
         color: black;
         text-align: left;
-        font-weight: normal;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        margin: 5px 30px;
+        margin: 5px 15px;
     }
     .fa-clock-o {
+        font-size: 20px;
         color: black;
-        margin: 0 30px;
+        margin: 0 15px;
     }
     .fa-users {
+        font-size: 20px;
         color: black;
+        margin: 0 15px;
+    }
+    .fa-type {
+        font-size: 20px;
+        color: black;
+        margin: 0 15px;
     }
     .info {
+        font-size: 20px;
         color: black;
-        margin: 10px 30px;
+        margin: 10px 15px;
     }
     a.btn {
+        font-size: 30px;
         display: block;
         color: white;
-        background: red;
+        background: #FFA500;
         position: relative;
         text-transform: uppercase;
         letter-spacing: 0.1em;
@@ -79,8 +87,6 @@
     <meta charset="UTF-8">
     <title>Recipes</title>
     <link rel="stylesheet" href="Style.css">
-
-
 </head>
 <body>
 
@@ -92,18 +98,66 @@
 
     <div class="card">
         <div class="header">
-            <img src="../pics/pot food.jpg" alt="nothing">
+            <img src="../pics/1.jpg" alt="nothing">
         </div>
         <div class="text">
             <h1 class="food">
-                Chinese Food
+                Light Shrimp Fried Quinoa
             </h1>
-            <i class="fa fa-clock-o"> 15 Mins</i>
-            <i class="fa fa-users"> Serves 2</i>
-            <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, temporibus.</p>
+            <i class="fa fa-clock-o">30 Mins</i>
+            <i class="fa fa-users">Serves 4</i>
+            <i class="fa fa-type">Build muscles</i>
+            <p class="info">A healthy high protein dinner with quinoa, shrimps and soy sauce.</p>
         </div>
-        <a href="https://bignuts.my/" class="btn">Let's Cook!</a>
+        <a href="https://www.thecreativebite.com/light-shrimp-fried-quinoa/" class="btn">Let's Cook!</a>
     </div>
 
+    <div class="card">
+        <div class="header">
+            <img src="../pics/2.jpg" alt="nothing">
+        </div>
+        <div class="text">
+            <h1 class="food">
+                Chimichurri Steak
+            </h1>
+            <i class="fa fa-clock-o"> 30 Mins</i>
+            <i class="fa fa-users">Serves 4</i>
+            <i class="fa fa-type">Build muscles</i>
+            <p class="info">A Flank steak paired with garlic, brown sugar and chimichurri.</p>
+        </div>
+        <a href="https://www.howsweeteats.com/2014/01/garlic-brown-sugar-flank-steak-with-chimichurri/#_a5y_p=1218226" class="btn">Let's Cook!</a>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <img src="../pics/3.jpg" alt="nothing">
+        </div>
+        <div class="text">
+            <h1 class="food">
+                Cauliflower Mushroom Tacos
+            </h1>
+            <i class="fa fa-clock-o"> 25 Mins</i>
+            <i class="fa fa-users">Serves 4</i>
+            <i class="fa fa-type">Lose fat</i>
+            <p class="info">A fast low-calorie meal servable with or without meat.</p>
+        </div>
+        <a href="https://www.health.com/recipes/cauliflower-mushroom-tacos" class="btn">Let's Cook!</a>
+    </div>
+
+    <div class="card">
+        <div class="header">
+            <img src="../pics/4.jpg" alt="nothing">
+        </div>
+        <div class="text">
+            <h1 class="food">
+                Steakhouse Salad
+            </h1>
+            <i class="fa fa-clock-o"> 25 Mins</i>
+            <i class="fa fa-users">Serves 4</i>
+            <i class="fa fa-type">Lose fat</i>
+            <p class="info">Beef with spinach, potatoes, mushrooms and tomatoes on salad paired with blue cheese.</p>
+        </div>
+        <a href="https://www.health.com/recipes/steakhouse-salad" class="btn">Let's Cook!</a>
+    </div>
 </body>
 </html>
