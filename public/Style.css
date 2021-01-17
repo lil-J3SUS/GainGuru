@@ -1,5 +1,8 @@
 body {
     background-color: #333333;
+    margin: 0;
+    font-family: "Lato", Calibri, Arial, sans-serif;
+    font-weight: bold;
 }
 #wrapper{
     background-color: #333333;
@@ -16,10 +19,7 @@ p {
 
 /*Navbar css start*/
 
-body {margin: 0;}
-
 ul.topnav {
-    font-family: Montserrat, sans-serif;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,7 +65,6 @@ ul.topnav li.right {float: right;}
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 
@@ -123,6 +122,8 @@ ul.topnav li.right {float: right;}
 
 /* buttons start */
 button {
+    font-family: "Lato", Calibri, Arial, sans-serif;
+    font-weight: bold;
     background-color: #222222;
     display: inline-block;
     color: white;
