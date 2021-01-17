@@ -2,107 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="StyleEva.css">
     <title>Age</title>
 </head>
-<style>
-    body {font-family: Arial, Helvetica, sans-serif;}
-    * {box-sizing: border-box}
-
-    /* Full-width input fields */
-    input[type=text], input[type=password] {
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0 22px 0;
-        display: inline-block;
-        border: none;
-        background: #f1f1f1;
-    }
-
-    input[type=text]:focus, input[type=password]:focus {
-        background-color: #ddd;
-        outline: none;
-    }
-
-    hr {
-        border: 1px solid #f1f1f1;
-        margin-bottom: 25px;
-    }
-
-    /* Set a style for all buttons */
-    button {
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        opacity: 0.9;
-    }
-
-    button:hover {
-        opacity:1;
-    }
-
-    /* Extra styles for the cancel button */
-    .cancelbtn {
-        padding: 14px 20px;
-        background-color: #f44336;
-    }
-
-    /* Float cancel and signup buttons and add an equal width */
-    .cancelbtn, .nextbtn {
-        float: left;
-        width: 50%;
-    }
-
-    /* Add padding to container elements */
-    .container {
-        padding: 16px;
-    }
-
-    /* Clear floats */
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-    /* Change styles for cancel button and signup button on extra small screens */
-    @media screen and (max-width: 300px) {
-        .cancelbtn, .nextbtn {
-            width: 100%;
-        }
-    }
-</style>
 <body>
-
 <div style="padding:0 16px;">
     <h2>Select your age (6 options)</h2>
-    <form action="/action_page.php" style="border:180px solid #222222">
+    <form style="border:180px solid #222222">
         <div class="container">
-
-
-            <label for="age"><h2>Age</h2>
-                <p>Please tell us how old you are.</p>
-                <hr></label>
-            <p>I am
-            <select id="age" name="age">
-                <option value="">--select your age--</option>
-                <option value=">18">>18</option>
-                <option value="18-29">18-29</option>
-                <option value="30-45">30-45</option>
-                <option value="46-60">46-60</option>
-                <option value="<60"><60</option>
-            </select> years old.</p>
-            <div class="clearfix">
-                <a href="v1_index.html"><button type="button" class="cancelbtn">Cancel</button></a>
-                <a href="v2_BodyData.html"><button type="button" class="nextbtn">Next</button></a>
+            <h2>Age</h2>
+            <p>Please tell us how old you are.</p>
+            <hr>
+            <div id="buttons">
+                <a href="form_Goal.html">
+                    <button type="button" class="AgeButton">18 or younger</button>
+                </a>
+                <a href="form_Goal.html">
+                    <button type="button" class="AgeButton">18-29</button>
+                </a>
+                <a href="form_Goal.html">
+                    <button type="button" class="AgeButton">30-39</button>
+                </a>
+                <a href="form_Goal.html">
+                    <button type="button" class="AgeButton">40-49</button>
+                </a>
+                <a href="form_Goal.html">
+                    <button type="button" class="AgeButton">50-59</button>
+                </a>
+                <a href="form_Goal.html">
+                    <button type="button" class="AgeButton">60 or older</button>
+                </a>
             </div>
+            <a href="v1_index.html">
+                <button type="button" class="cancelbtn2">Cancel</button>
+            </a>
         </div>
     </form>
 </div>
-
 </body>
 </html>
