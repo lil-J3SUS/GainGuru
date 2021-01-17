@@ -3,8 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <title>MealPlan</title>
+    <link rel="stylesheet" href="Style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            position: initial;
+            background: white;
+            max-width: 50%;
+            margin: 50px auto;
+            box-shadow: 0px 0px 30px 2px #000;
+        }
+        .header {
+            background-size: cover;
+            min-height: 350px;
+        }
+        .icon a .fa-heart-o {
+            position: absolute;
+            left: 85%;
+            bottom: 30.7%;
+            color: white;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 50%;
+            box-shadow: 0px 5px 30px 1px;
+        }
+        .food {
+            font-size: 60px;
+            font-weight: bold;
+            color: black;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin: 5px 15px;
+        }
+        .fa-clock-o {
+            font-size: 20px;
+            color: black;
+            margin: 0 15px;
+        }
+        .fa-users {
+            font-size: 20px;
+            color: black;
+            margin: 0 15px;
+        }
+        .fa-type {
+            font-size: 20px;
+            color: black;
+            margin: 0 15px;
+        }
+        .info {
+            font-size: 20px;
+            color: black;
+            margin: 10px 15px;
+        }
+        a.btn {
+            font-size: 30px;
+            display: block;
+            color: white;
+            background: #FFA500;
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: center;
+            padding: 10px;
+            transition: 250ms;
+        }
+        :hover {
+            transition: 250ms;
+        }
+        .header img{
+            width: 100%;
+        }
+
+    </style>
+
 </head>
 <body>
+
+<h2 align="center">Philipp's Recipes</h2>
+
+<a href="v2_ViewSavedPlans.html"><button type="button" class="returnbtn1">Return to Plans</button></a>
+
+<div class="card">
+    <div class="header">
+        <img src="../pics/3.jpg" alt="nothing">
+    </div>
+    <div class="text">
+        <h1 class="food">
+            Cauliflower Mushroom Tacos
+        </h1>
+        <i class="fa fa-clock-o">25 Mins</i>
+        <i class="fa fa-users">Serves 4</i>
+        <i class="fa fa-type">Lose fat</i>
+        <p class="info">A fast low-calorie meal servable with or without meat.</p>
+    </div>
+    <a href="https://www.health.com/recipes/cauliflower-mushroom-tacos" class="btn">Let's Cook!</a>
+</div>
+
+<div class="card">
+    <div class="header">
+        <img src="../pics/4.jpg" alt="nothing">
+    </div>
+    <div class="text">
+        <h1 class="food">
+            Steakhouse Salad
+        </h1>
+        <i class="fa fa-clock-o">25 Mins</i>
+        <i class="fa fa-users">Serves 4</i>
+        <i class="fa fa-type">Lose fat</i>
+        <p class="info">Beef with spinach, potatoes, mushrooms and tomatoes on salad paired with blue cheese.</p>
+    </div>
+    <a href="https://www.health.com/recipes/steakhouse-salad" class="btn">Let's Cook!</a>
+</div>
 
 </body>
 </html>
