@@ -108,3 +108,13 @@ ul.topnav li.right {float: right;}
     width: 80%;
     margin: auto;
 }
+
+
+.vl {
+    border-left: 6px solid whitesmoke;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 180px;
+}
