@@ -1,5 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    html, body {
+        height: 100%;
+    }
+    .card {
+        position: relative;
+        background: white;
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0px 0px 30px 2px #000;
+    }
+    .header {
+        background-size: cover;
+        min-height: 350px;
+    }
+    .icon a .fa-heart-o {
+        position: absolute;
+        left: 85%;
+        bottom: 30.7%;
+        color: white;
+        font-size: 1.3em;
+        font-weight: bold;
+        padding: 15px;
+        border-radius: 50%;
+        box-shadow: 0px 5px 30px 1px;
+    }
+    .food {
+        color: black;
+        text-align: left;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 5px 30px;
+    }
+    .fa-clock-o {
+        color: black;
+        margin: 0 30px;
+    }
+    .fa-users {
+        color: black;
+    }
+    .info {
+        color: black;
+        margin: 10px 30px;
+    }
+    a.btn {
+        display: block;
+        color: white;
+        background: red;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-align: center;
+        padding: 10px;
+        transition: 250ms;
+    }
+    :hover {
+         transition: 250ms;
+     }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Recipes</title>
@@ -15,11 +90,19 @@
         <li class="right"><a href="v1_Login.html">Login</a></li>
     </ul>
 
-    <div style="padding:0 16px;">
-        <h2>View all our recipes here</h2>
-        <p>Make huge gains all the time!!!</p>
-
-        <h4>This site is mega responsive.</h4>
+    <div class="card">
+        <div class="header">
+            <img src="../pics/pot food.jpg" alt="nothing">
+        </div>
+        <div class="text">
+            <h1 class="food">
+                Chinese Food
+            </h1>
+            <i class="fa fa-clock-o"> 15 Mins</i>
+            <i class="fa fa-users"> Serves 2</i>
+            <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, temporibus.</p>
+        </div>
+        <a href="https://bignuts.my/" class="btn">Let's Cook!</a>
     </div>
 
 </body>
