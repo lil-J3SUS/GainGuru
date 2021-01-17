@@ -4,42 +4,57 @@
     <meta charset="UTF-8">
     <title>View Plans</title>
     <link rel="stylesheet" href="Style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
+        .column {
+            text-align: center;
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
 
-
+        h1{
+            color: white;
+        }
+    </style>
 </head>
 <body>
 
-<ul class="topnav">
-    <li><a href="v2_index_2.html">Home</a></li>
-    <li><a href="v2_Recipes.html">Browse Recipes</a></li>
-    <div class="dropdown">
-        <button class="dropbtn">Username
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="v2_Account.html">Account</a>
-            <a href="v1_index.html">Logout</a>
+    <ul class="topnav">
+        <li><a href="v2_index_2.html">Home</a></li>
+        <li><a href="v2_Recipes.html">Browse Recipes</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">Username
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="v2_Account.html">Account</a>
+                <a href="v1_index.html">Logout</a>
+            </div>
         </div>
-    </div>
-    <li class="right"><a href="v2_BodyData.html">Body Data</a></li>
-    <li class="right"><a class="active" href="v2_ViewSavedPlans.html">View Saved Plans</a></li>
-</ul>
-
-<div style="padding:0 16px;">
-    <h2 align="center">View your saved plans here</h2>
-    <br>
+        <li class="right"><a href="v2_BodyData.html">Body Data</a></li>
+        <li class="right"><a class="active" href="v2_ViewSavedPlans.html">View Saved Plans</a></li>
+    </ul>
 
     <div class="vl"></div>
 
-    <a href="v2_WorkoutPlan.html"><img src="../pics/Workout.svg" align="left" width="652" height="652" ></a>
-
-
-    <a href="v2_MealPlan.html"><img src="../pics/Taco.png" align="right" width="652" height="652"></a>
-
-
-
-</div>
-
+    <div class="row">
+        <div class="column">
+            <h1>Workout Plan</h1>
+            <a href="v2_WorkoutPlan.html"><img src="../pics/Workout.svg" align="center" width="652" height="652" ></a>
+        </div>
+        <div class="column">
+            <h1>Meal Plan</h1>
+            <a href="v2_MealPlan.html"><img src="../pics/Taco.png" align="center" width="652" height="652"></a>
+        </div>
+    </div>
 </body>
 </html>
